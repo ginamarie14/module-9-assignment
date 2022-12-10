@@ -1,5 +1,7 @@
 # README Generator
 
+<img width="719" alt="m91" src="https://user-images.githubusercontent.com/44861723/206831435-eb7a3bc9-d539-4649-91be-bb6a71b22bc7.png">
+
   ## Description
 
   This app is a tool to be used in the terminal to generate a README for your project.
