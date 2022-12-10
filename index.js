@@ -8,7 +8,7 @@ const questions = () =>
     {
       type: "input",
       message: "What is the name of your project?",
-      name: "project-name",
+      name: "title",
     },
     {
       type: "input",
@@ -18,7 +18,7 @@ const questions = () =>
     {
       type: "input",
       message: "How can your project be accessed or run?",
-      name: "run-app",
+      name: "installation",
     },
     {
       type: "input",
@@ -27,15 +27,25 @@ const questions = () =>
     },
     {
       type: "input",
-      message:"Any credits?",
+      message: "How can we test your app?",
+      name: "testing",
+    },
+    {
+      type: "input",
+      message:"Any credits/contributions?",
       name: "contributions",
     },
     {
       type: "list",
       message: "Is there a license? If yes, which?",
-      choices: ["MIT", "Apache", "GNU", "ISC", "CC", "None"],
+      choices: ["MIT", "Apache", "Mozilla", "GNU GPL", "ISC", "None"],
       default: "None",
       name: "license",
+    },
+    {
+      type: "input",
+      message:"How can we reach out to you?",
+      name: "contact",
     }
   ]);
 
